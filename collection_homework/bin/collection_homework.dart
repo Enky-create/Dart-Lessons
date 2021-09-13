@@ -1,5 +1,5 @@
 void main() {
-  bool search(dynamic value, List list) {
+  bool search(dynamic value, List<dynamic> list) {
     bool isContain = false;
     for (var element in list) {
       if (element == value) {
